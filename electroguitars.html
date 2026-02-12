@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="uk">
+<link rel="icon" type="image/png" href="images/icon.png">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HardSound | Товари</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="electroguitars-page">
+<header>
+  <h2><span class="logo-hard">Hard</span><span class="logo-sound">Sound</span></h2>
+  <nav>
+    <a href="index.html">Головна</a>
+    <a href="catalog.html" class="active">Каталог</a>
+    <a href="specials.html">Спеціальні пропозиції</a>
+    <a href="news.html">Новини</a>
+    <a href="contacts.html">Контакти</a>
+    <a href="about.html">Про нас</a>
+  </nav>
+</header>
+
+  <main class="products-container">
+    <aside class="filters">
+      <h3>Фільтри</h3>
+      <form id="filters-form">
+        <div class="filter-group">
+          <label for="color">Колір</label>
+          <select id="color" name="color">
+            <option value="">Усі</option>
+            <option value="black">Чорний</option>
+            <option value="red">Червоний</option>
+            <option value="blue">Синій</option>
+            <option value="purple">Фіолетовий</option>
+            <option value="pink">Рожевий</option>
+            <option value="white">Білий</option>
+            <option value="combo">Комбінований (більше 2 кольорів)</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label>Тип гітари</label>
+          <div><label><input type="checkbox" name="type" value="superstrat"> Superstrat</label></div>
+          <div><label><input type="checkbox" name="type" value="v-type"> V-type</label></div>
+          <div><label><input type="checkbox" name="type" value="warlock"> Warlock</label></div>
+          <div><label><input type="checkbox" name="type" value="modern"> Modern</label></div>
+        </div>
+
+        <div class="filter-actions">
+          <button type="reset" class="btn reset">Скинути</button>
+        </div>
+      </form>
+    </aside>
+
+    <section class="products-page">
+      <h2>Каталог</h2>
+      <p class="intro-text">Оберіть свою ідеальну електрогітару!</p>
+
+      <section class="product-grid">
+        <div class="product-card" data-colors="combo,red" data-type="modern">
+          <img src="images/electroguitar1.jpg" alt="Fender PD-350">
+          <h3>Fender PD-350</h3>
+          <p>Крутий дизайн, чіткий звук. Грати на ній - одне задоволення</p>
+          <div class="product-price"><p><s>₴26 999</s></p>₴24 999</div>
+          <a href="product1.html" class="btn">Детальніше</a>
+        </div>
+
+        <div class="product-card" data-colors="combo,blue" data-type="v-type">
+          <img src="images/electroguitar2.jpg" alt="Jackson G-480F">
+          <h3>Jackson G-480F</h3>
+          <p>Для швидких соло і металу. Зручна форма з оригінальним дизайном</p>
+          <div class="product-price"><p><s>₴33 999</s></p>₴31 499</div>
+          <a href="product2.html" class="btn">Детальніше</a>
+        </div>
+
+        <div class="product-card" data-color="black" data-type="warlock">
+          <img src="images/electroguitar3.jpg" alt="Ibanez RG-400">
+          <h3>Ibanez RG-400</h3>
+          <p>Крутий звук для рокерів, актуально завжди і повсюди</p>
+          <div class="product-price"><p><s>₴20 999</s></p>₴18 750</div>
+          <a href="product3.html" class="btn">Детальніше</a>
+        </div>
+
+        <div class="product-card" data-color="red" data-type="superstrat">
+          <img src="images/electroguitar4.jpg" alt="ESP A-500F">
+          <h3>ESP A-500F</h3>
+          <p>Класичний суперстрат. Для м'ясистих, потужних рифів</p>
+          <div class="product-price"><p><s>₴35 999</s></p>₴32 750</div>
+          <a href="product4.html" class="btn">Детальніше</a>
+        </div>
+
+        <div class="product-card" data-color="red" data-type="v-type">
+          <img src="images/electroguitar5.jpg" alt="Ibanez AF-600F">
+          <h3>Ibanez AF-600F</h3>
+          <p>Гучний, дзвінкий звук. Те, що треба для експресивної гри</p>
+          <div class="product-price"><p><s>₴24 999</s></p>₴17 999</div>
+          <a href="product5.html" class="btn">Детальніше</a>
+        </div>
+
+        <div class="product-card" data-color="purple" data-type="superstrat">
+          <img src="images/electroguitar6.jpg" alt="Ibanez GK-300K">
+          <h3>Ibanez GK-300K</h3>
+          <p>Потужне звучання. Звук, яким можна насолоджуватися годинами</p>
+          <div class="product-price"><p><s>₴36 999</s></p>₴30 299</div>
+          <a href="product6.html" class="btn">Детальніше</a>
+        </div>
+
+        <div class="product-card" data-color="pink" data-type="v-type">
+          <img src="images/electroguitar7.jpg" alt="Cort R-3000">
+          <h3>Cort R-3000</h3>
+          <p>Подвійний "електричний" звук. Унікальність забезпечена.</p>
+          <div class="product-price"><p><s>₴16 999</s></p>₴13 299</div>
+          <a href="product7.html" class="btn">Детальніше</a>
+        </div>
+
+        <div class="product-card" data-color="white" data-type="warlock">
+          <img src="images/electroguitar8.jpg" alt="Cort F-540">
+          <h3>Cort F-540</h3>
+          <p>Ідеальна для початківців та професіоналів. Зручний гриф, легка гра</p>
+          <div class="product-price"><p><s>₴23 999</s></p>₴19 299</div>
+          <a href="product8.html" class="btn">Детальніше</a>
+        </div>
+
+        <div class="product-card" data-color="purple" data-type="superstrat">
+          <img src="images/electroguitar9.jpg" alt="Ibanez F-380">
+          <h3>Ibanez F-380</h3>
+          <p>Звук, що зачаровує. Ідеально підійде для гри в будь-якому стилі</p>
+          <div class="product-price"><p><s>₴24 999</s></p>₴23 499</div>
+          <a href="product9.html" class="btn">Детальніше</a>
+        </div>
+
+        <div class="product-card" data-color="black" data-type="v-type">
+          <img src="images/electroguitar10.jpg" alt="Cort BM-380">
+          <h3>Cort BM-380</h3>
+          <p>Для меломанів, які цінують якість. Високоякісні матеріали та звук</p>
+          <div class="product-price"><p><s>₴36 999</s></p>₴30 999</div>
+          <a href="product10.html" class="btn">Детальніше</a>
+        </div>
+
+        <div class="product-card" data-color="blue" data-type="superstrat">
+          <img src="images/electroguitar11.jpg" alt="Yamaha Pacifica BM-424EK">
+          <h3>Yamaha Pacifica BM-424EK</h3>
+          <p>Ідеальна для початківців та професіоналів. Зручний гриф, легка гра</p>
+          <div class="product-price"><p><s>₴30 999</s></p>₴25 299</div>
+          <a href="product11.html" class="btn">Детальніше</a>
+        </div>
+
+        <div class="product-card" data-color="pink" data-type="superstrat">
+          <img src="images/electroguitar12.jpg" alt="Ibanez BK-68G">
+          <h3>Ibanez BK-68G</h3>
+          <p>Яскравий колір, сміливий звук. Підкреслить вашу індивідуальність</p>
+          <div class="product-price"><p><s>₴24 999</s></p>₴22 499</div>
+          <a href="product12.html" class="btn">Детальніше</a>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <footer>
+    <p>@ 2026 HardSound. Всі права захищено.</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

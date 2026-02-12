@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <link rel="icon" type="image/png" href="images/icon.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакти | HardSound</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h2><span class="logo-hard">Hard</span><span class="logo-sound">Sound</span></h2>
+  <nav>
+    <a href="index.html">Головна</a>
+    <a href="catalog.html">Каталог</a>
+    <a href="specials.html">Спеціальні пропозиції</a>
+    <a href="news.html">Новини</a>
+    <a href="contacts.html" class="active">Контакти</a>
+    <a href="about.html">Про нас</a>
+  </nav>
+</header>
+
+<section class="contacts-page">
+  <div class="contacts-hero">
+    <h2>Наші контакти</h2>
+    <p>Запитання, замовлення чи тест-драйв інструменту - напишіть або завітайте до нас.</p>
+  </div>
+
+  <div class="contacts-grid">
+    <div class="contact-card">
+      <h3>HardSound Чернівці</h3>
+      <p>м. Чернівці, вул. Головна, 64</p>
+      <p><a href="tel:+380956287600">+380 (95) 628 76 00</a></p>
+      <p><a href="mailto:hardsoundcv@gmail.com">hardsoundcv@gmail.com</a></p>
+
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps?q=м.+Чернівці,+вул.+Головна,+64&output=embed"
+          width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+      </div>
+    </div>
+
+    <form class="contact-card contact-form" id="contact-form" data-endpoint="/api/contact" action="#" method="post">
+      <h3>Напишіть нам</h3>
+      <label>
+        Імʼя
+        <input type="text" name="name" placeholder="Ваше імʼя" required>
+      </label>
+      <label>
+        Телефон
+        <input type="tel" id="phone-input" name="phone" placeholder="+380-XX-XXX-XX-XX" maxlength="13" required>
+      </label>
+      <label>
+        Повідомлення
+        <textarea name="message" rows="5" placeholder="Напишіть ваше запитання..." required></textarea>
+      </label>
+      <button type="submit" class="btn">Надіслати</button>
+      <p class="form-note">Відповімо протягом 1 робочого дня.</p>
+    </form>
+  </div>
+
+  <div class="contacts-social">
+    <h3>Ми в соціальних мережах</h3>
+    <div class="social-media">
+      <a href="https://www.tiktok.com/hardsoundcv" target="_blank">
+        <img src="images/tiktok-logo.jpg" width="30" class="icon"> TikTok
+      </a>
+      <a href="https://www.instagram.com/hardsoundcv" target="_blank">
+        <img src="images/instagram-logo.jpg" width="30" class="icon"> Instagram
+      </a>
+      <a href="https://www.facebook.com/hardsoundcv" target="_blank">
+        <img src="images/facebook-logo.jpg" width="30" class="icon"> Facebook
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>@ 2026 HardSound. Усі права захищено.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
